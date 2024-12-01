@@ -7,7 +7,7 @@ describe ('suit name', function ()
 
        cy.get("input#search_product").type("tshirts")
 
-       cy.get("button#submit_search").click
+       cy.get("button#submit_search").click()
        
     }
 )
